@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* CABEÇALHO*/
+
+.feed-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.cabecalho{
+    flex-basis: 20%;
+}
+.cabecalho-logo{
+    margin-bottom: 50px;
+}
+
+.cabecalho-menu-item{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cabecalho-menu-item a {
+    color: rgb(34, 4, 117);
+    font-size: 20px;
+    
+}
+.lista-feed{
+    display: flex;
+    flex-flow: column-reverse;
+}
+.conteudo-principal{
+    width: 70vw;
+    padding-left: 5px;
+    border-left: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+}
+.conteudo-principal-texto{
+    padding: 30px 1px;
+}
+.formulario{
+    background-color: #fff;
+    text-align: right;
+    border-top: 2px solid #ddd;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border-bottom: 10px solid #ddd
+    
+}
+.conteudo-principal-texto-comentario{
+    height: 150px;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    resize: none;
+    padding-top: 15px;
+}
+.btn{
+    height: 30px;
+    width: 50px;
+    background-color: #1da1f2;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    margin: 10px;
+    cursor:pointer;
+}
+.itens-lista-feed{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 10px 20px;
+    border-bottom: 4px solid #ddd;
+}
+.feed{
+
+    margin-left: 10px;
+}
+.feed h2, span{
+    display: inline-block;
+}
+span{
+    color: #828282;
+}
+.feed p{
+    margin-top: 5px;
+}
+p{
+    color: #333;
+}

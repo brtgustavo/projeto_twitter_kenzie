@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Twitter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!--Cabeçalho-->
+    <div class="container">
+
+        <header class="cabecalho">
+            <!--Imagem do Cabeçalho -->
+            <figure class="cabecalho-logo">
+                <img src="img/bird 1.svg" alt="Logo do projeto Twitter">
+                <figcaption hidden >Logo do Projeto</figcaption>
+            </figure>
+            <!--Menu de Navegação-->
+            <nav class="cabecalho-menu">
+                <ul class="cabecalho-menu-lista">
+                    <li class="cabecalho-menu-item">
+                        <img src="img/Home.png" alt="">
+                        <a href="#">Página Inicial</a>
+                    </li>
+                    <li class="cabecalho-menu-item">
+                        <img src="img/Hashtag.png" alt="">
+                        <a href="#">Explorar</a>
+                    </li>
+                    <li class="cabecalho-menu-item">
+                        <img src="./img/Notification.png" alt="">
+                        <a href="#">Notificação</a>
+                    </li>
+                    <li class="cabecalho-menu-item">
+                        <img src="./img/Group (1).png" alt="">
+                        <a href="#">itens Salvos</a>
+                    </li>
+                    <li class="cabecalho-menu-item">
+                        <img src="img/Group (2).png" alt="">
+                        <a href="#">Lista</a>
+                    </li>
+                    <li class="cabecalho-menu-item">
+                        <img class="feed-img" src="eu.jfif" alt="">
+                        <a href="#">Perfil</a>
+                    </li>
+                    <li class="cabecalho-menu-item">
+                        <img src="img/Group (3).png" alt="">
+                        <a href="#">Mais</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </header>
+    
+        <!--Conteudo Principal-->
+    
+        <main class="conteudo-principal">
+            <div class="coment-section">
+                <h2 class="conteudo-principal-texto">Home</h2>
+        
+                <form action="#" class="formulario">
+                    <textarea name="texto-do-twitti"  class="conteudo-principal-texto-comentario" placeholder="Digite Seu Comentário" ></textarea>
+                    <button  class="btn" type="submit">Twettar</button>
+                </form>
+            </div>
+    
+            <!--Feed de Noticias-->
+            <section class="conteudo-feed">
+                <ul class="lista-feed">
+                    <li class="itens-lista-feed">
+                        <img class="feed-img" src="img/ProfilePic.png" alt="">
+                        <div class="feed">
+                            <h2>Daniel</h2>
+                            <span>@danielkanzie 14s</span>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto tenetur accusamus illo incidunt, 
+                                aspernatur laborum, quia, explicabo facilis minus quae fugit sint cum dolor consequuntur asperiores non. Quas, fuga molestiae?</p>
+                        </div>
+                    </li>
+                    <li class="itens-lista-feed">
+                        <img class="feed-img" src="img/ProfilePic.png" alt="">
+                        <div class="feed">
+                            <h2>Daniel</h2>
+                            <span>@danielkanzie 14s</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem molestiae quas soluta, 
+                                doloribus iusto similique totam laboriosam? Unde, ipsam. Inventore et rerum architecto sit soluta distinctio libero dolor ratione ex.</p>
+                        </div>
+                    </li>
+                    <li class="itens-lista-feed">
+                        <img class="feed-img" src="img/ProfilePic.png" alt="">
+                        <div class="feed">
+                            <h2>Daniel</h2>
+                            <span>@danielkanzie 14s</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere explicabo debitis 
+                                excepturi, quibusdam, aspernatur assumenda, libero dolorem quisquam itaque cum repellendus alias officiis tempora quo repudiandae atque laborum pariatur odit.</p>
+                        </div>
+                    </li> 
+                </ul>
+            </section>
+    
+        </main>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
